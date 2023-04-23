@@ -28,7 +28,7 @@ class GlazerCalc
         string widthString, heightString;
         widthString = Console.ReadLine();
         width = double.Parse(widthString);
-        heightString = Console.ReadLine();
+        heightString = Console.ReadLine();      // No clue what to do here
         height = double.Parse(heightString);
         woodLength = 2 * (width + height) * 3.25;
         glassArea = 2 * (width * height);
