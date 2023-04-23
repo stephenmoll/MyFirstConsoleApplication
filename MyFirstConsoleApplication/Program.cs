@@ -24,6 +24,7 @@ class GlazerCalc
 
         Console.WriteLine($"Days until Christmas: {daysUntilChristmas}.");
 
+        Console.WriteLine(); 
         double width, height, woodLength, glassArea;
         string widthString, heightString;
 
